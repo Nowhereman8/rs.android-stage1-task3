@@ -23,7 +23,7 @@ class ArrayCalculator {
             }
             //println(prod)
 
-            while (listok.size > n && res < 0) {
+            while (listok.size >= n && res < 0) {
                 prod = listok.take(n)
                 //println(prod)
                 res = prod[0]
